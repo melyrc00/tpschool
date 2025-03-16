@@ -1,0 +1,236 @@
+/* Reset y Estilos Generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Navbar */
+  nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(29, 116, 241);
+  }
+  
+  nav .logo {
+    height: 6rem;
+  }
+  
+  .nav-item .nav-link, 
+  .download-box a {
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item .nav-link:hover, 
+  .download-box a {
+    color: rgba(37, 168, 65);
+    border-radius: 5px;
+  }
+  
+  .download-box a:hover {
+    font-weight: 600;
+  }
+  
+  /* Sección Masthead */
+  section.masthead {
+    position: relative;
+    background: url("../assets/img/El-talar-jardin-colegio-secundario-2.jpeg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8rem;
+  }
+  
+  .masthead h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .masthead h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  /* Showcase */
+  .showcase h2, .showcase h3 {
+    color: rgb(29, 116, 241);
+  }
+  
+  .showcase h2 {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .showcase h3 {
+    background-color: rgb(37, 168, 65);
+    padding: 0.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .showcase p {
+    font-size: 1.2rem;
+  }
+  
+  .showcase-text ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .showcase-text ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  /* Contacto */
+  .text-contac h2 {
+    background-color: rgb(29, 116, 241);
+    padding: 0.5rem;
+  }
+  
+  .text-contac a {
+    color: white;
+  }
+  
+  /* Botón Personalizado */
+  .custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(29, 116, 241);
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: rgba(37, 168, 65);
+  }
+  
+  /* Main y Footer */
+  main, footer {
+    padding: 0 10%;
+    margin: auto;
+  }
+  
+  footer.footer {
+    padding: 4rem 0;
+    background-color: rgb(29, 116, 241);
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  /* Banner Presentación */
+  .banner-pres {
+    background-color: rgba(29, 116, 241, 0.3);
+    padding: 2rem 0;
+  }
+  
+  .banner-pres hr {
+    border-color: white;
+    margin: 1rem;
+    border-width: 2px;
+  }
+  
+  /* Divider */
+  .featurette-divider {
+    margin: 5rem 0;
+    color: rgb(37, 168, 65);
+  }
+  
+  /* Sección Descargas */
+  .section-download h2 {
+    padding-bottom: 2rem;
+  }
+  
+  .section-download2 {
+    border: solid 1px rgb(37, 168, 65);
+    padding: 1.5rem;
+  }
+  
+  /* Call to Action */
+  .call-to-action {
+    position: relative;
+    padding: 7rem 0;
+  }
+  
+  .call-to-action:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(170, 178, 189);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 987px) {
+    nav.navbar {
+      position: relative;
+    }
+  
+    .container {
+      max-width: 80vw;
+    }
+  
+    section.masthead {
+      padding: 12rem 0;
+    }
+  
+    section.masthead h1 {
+      font-size: 3rem;
+    }
+  
+    ul.nav {
+      display: none;
+    }
+  
+    .showcase-text.text-contac {
+      padding: 0;
+    }
+  
+    .showcase .showcase-text {
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .showcase .showcase-text p:nth-of-type(2) {
+      display: none;
+    }
+  
+    .text-contac ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .text-contac ul li {
+      text-align: justify;
+    }
+  }
+  

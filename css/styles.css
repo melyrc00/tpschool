@@ -1,0 +1,323 @@
+* {
+box-sizing: border-box;
+text-decoration: none !important;
+margin: 0;
+padding: 0;
+
+/* max-width: 100%; */
+font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: normal!important
+}
+
+nav.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; 
+  z-index: 1000;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  flex-direction: column;
+  align-items: normal;
+  color: rgb(29, 116, 241);
+}
+
+nav .logo {
+height: 6rem;
+}
+
+nav .nav-item, .download-box a{
+  font-size: 1.2rem;
+}
+
+
+.nav-item .nav-link:hover, .download-box a {
+  color:rgba(37, 168, 65);
+  border-radius: 5px;
+}
+
+.download-box a:hover {
+  font-weight: 600;  
+
+}
+
+
+section.masthead {
+  position: relative;
+  background: url("../assets/img/El-talar-jardin-colegio-secundario-2.jpeg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+article.showcase{
+  padding: 0.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: rgb(37, 168, 65);
+
+}
+
+.masthead h1 {
+font-size: 3rem;
+font-weight: 700;
+margin-top: 3rem;
+padding-bottom: 2rem;
+color: white;
+text-align: center;
+}
+
+
+
+.masthead h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+.showcase h2, .showcase h3 {
+  color: rgb(29, 116, 241);
+}
+
+
+.showcase h2{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.showcase h3 {
+  background-color:  rgb(37, 168, 65);
+  padding: 0.5rem;
+  font-weight: 600;
+  color:  rgb(255, 255, 255);
+}
+
+.showcase p{
+  font-size: 1.2rem;
+}
+
+.text-about {
+  padding-top: 4rem;
+}
+
+.text-contac h2 {
+  background-color: rgb(29, 116, 241); 
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+.text-contac2  {
+  margin-left: 1rem;
+}
+
+.showcase-text ul {
+  list-style: none; 
+  padding-left: 0; 
+}
+
+.showcase-text ul li {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.text-contac a {
+  color: rgb(255, 255, 255);
+}
+.custom-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(29, 116, 241);
+  border-radius: 5px; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: rgba(37, 168, 65);
+}
+
+main, footer, .box-call-to{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+}
+
+
+.box-call-to iframe {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+
+.banner-pres {
+  background-color: rgba(29, 116, 241, 0.3);
+  padding-top: 2rch;
+  padding-bottom: 2rem;
+}
+
+.banner-pres hr {
+  border-color: white;
+  margin: 1rem;
+  border-width: 2px;
+}
+
+.showcase .showcase-text {
+  padding: 2rem;
+}
+
+.showcase .showcase-img {
+  height: auto;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+  color: rgb(37, 168, 65);
+}
+
+.section-download.showcase h2 {
+  padding-bottom: 2rem;
+}
+
+
+
+.section-download2 {
+  border: solid;
+  border-width: 1px;
+  border-color:  rgb(37, 168, 65); 
+  padding: 1.5rem;
+}
+
+
+.call-to-action {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgb(101, 119, 143);
+}
+
+
+.showcase-text.text-contac {
+  padding-left: 3rem;
+}
+
+.text-contac li{
+  font-weight: 500;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: rgb(29, 116, 241);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+
+@media (max-width: 987px) {
+
+  nav.navbar{
+    position: relative;
+  }
+/* 
+  .container {
+    max-width: 80vw
+  } */
+
+main, footer, .box-call-to {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  section.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  section.masthead h1, section.masthead .h1 {
+    font-size: 2.5rem;
+  }
+
+  .masthead h2 {
+    font-size: 1.5rem;
+
+  }
+  
+
+  ul.nav {
+    display: none;
+  }
+
+  .showcase-text.text-contac {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .showcase .showcase-text {
+    padding: 1rem 0 0 0;
+    text-align: center;
+  }
+
+  .showcase p {
+    font-size: 1rem;
+  }
+  
+  .text-about {
+    padding-top: 0;
+  }
+
+  .text-about p {
+    font-size: 1.1rem;
+  }
+
+  .showcase .showcase-text p:nth-of-type(2) {
+    display: none;
+  }
+
+  .text-contac2  {
+    margin-left: 0
+  }
+  
+  .call-to-action {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .box-call-to.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+
+.showcase-text ul li{
+  font-size: 1rem;
+  justify-content: center;
+  font-weight: 400;
+
+}
+
+
+}
