@@ -260,7 +260,9 @@ main, footer, .box-call-to {
   section.masthead h1, section.masthead .h1 {
     font-size: 2.5rem;
   }
-
+  .masthead h1 span { content: "/A"; white-space: pre;
+  }
+  
   .masthead h2 {
     font-size: 1.5rem;
 
