@@ -13,7 +13,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
         
     </head>
     <body>
@@ -43,8 +46,8 @@
                 <div class="text-center text-white">
                     <h2 class="mb-5">El hombre es sujeto <br> de su propia educación</h2>
                     <hr class="featurette-divider">
-                    <h5>Abierta las inscripciones 2025</h5>
-                    <a href="https://docs.google.com/forms/d/1fD4n2J7ljCyR89sPPS176np3t1gfGKm3aB3zlhgWwrw/viewform?edit_requested=true" target="_blank" class="custom-btn">Inscripciones 2025</a>
+                    <h5 data-aos="zoom-in">Abierta las inscripciones 2025</h5>
+                    <a href="https://docs.google.com/forms/d/1fD4n2J7ljCyR89sPPS176np3t1gfGKm3aB3zlhgWwrw/viewform?edit_requested=true" target="_blank" class="custom-btn" data-aos="zoom-in">Inscripciones 2025</a>
                 </div>
             </div>
         </section>
@@ -64,7 +67,7 @@
 
             <section class="showcase">
                 <div class="container-fluid p-0">
-                    <div class="row g-0 pt-3">
+                    <div class="row g-0 pt-3"  data-aos="zoom-in">
                         <img class="col-lg-6 order-lg-2 text-white showcase-img img-fluid" src="assets/img/jardin-portada.jpg" alt="jardin el talarcito">
                         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                             <h2 id="Inicial">Inicial</h2>
@@ -75,7 +78,7 @@
                     </div>
                     <hr class="featurette-divider">
 
-                    <div class="row g-0 pt-3">
+                    <div class="row g-0 pt-3"  data-aos="zoom-in">
                         <img class="col-lg-6 order-lg-1 text-white showcase-img img-fluid" src="assets/img/primaria-portada.jpg" alt="primaria instituto general pacheco">
                         <div class="col-lg-6 my-auto showcase-text order-lg-2">
                             <h2 id="Primaria">Primaria</h2>
@@ -87,7 +90,7 @@
 
                     <hr class="featurette-divider">
 
-                    <div class="row g-0 pt-3">
+                    <div class="row g-0 pt-3"  data-aos="zoom-in">
                         <img class="col-lg-6 order-lg-2 text-white showcase-img img-fluid" src="assets/img/secundaria-portada.jpg" alt="secundaria el talar">                    
                         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                             <h2 id="Secundaria">Secundaria</h2>
@@ -110,7 +113,7 @@
                 </div>
             </section>
 
-            <section class="section-download showcase" id="Descargas">
+            <section class="section-download showcase" id="Descargas"  data-aos="zoom-in">
                 <div>
                 <div class="row justify-content-center">
                     <div class="col-12 text-center text-md-start">
@@ -153,7 +156,7 @@
     </main>
     <!-- Call to Action-->
     <section class="call-to-action text-white text-center" >
-            <div class="row justify-content-center align-items-center box-call-to" id="Contacto"> 
+            <div class="row justify-content-center align-items-center box-call-to" id="Contacto"  data-aos="zoom-in"> 
                 <div class="col-lg-6 mb-4 mb-lg-0 pe-0 ps-0">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.2695388753814!2d-58.65473132342269!3d-34.470685950486256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca366af293305%3A0xc87321a51695a24!2sCentro%20Educativo%20El%20Talar!5e0!3m2!1ses-419!2sar!4v1742000005617!5m2!1ses-419!2sar" 
@@ -241,9 +244,9 @@
             <p class="text-center mt-4">&copy; Centro Educativo El Talar. Todos los derechos reservados</p>
         </div>
     </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
-
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>    
     </body>
 </html>
