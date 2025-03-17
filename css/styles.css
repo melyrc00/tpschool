@@ -238,7 +238,7 @@ footer a {
 }
 
 
-@media (max-width: 987px) {
+@media all and (max-width:800px) {
 
   nav.navbar{
     position: relative;
