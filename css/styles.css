@@ -49,10 +49,10 @@ nav .nav-item, .download-box a{
 
 section.masthead {
   position: relative;
-  background: url("../assets/img/El-talar-jardin-colegio-secundario-2.jpeg") no-repeat center center;
+  background: url("../assets/img/El-talar-jardin-colegio-secundario-optimizada.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -257,12 +257,16 @@ main, footer, .box-call-to {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  section.masthead h1, section.masthead .h1 {
-    font-size: 2.5rem;
+  section.masthead h1 {
+    font-size: 2.2rem;
   }
+  section.masthead h5 {
+    font-size: 1rem;
+  }
+
   .masthead h1 span { content: "/A"; white-space: pre;
   }
-  
+
   .masthead h2 {
     font-size: 1.5rem;
 
@@ -271,6 +275,10 @@ main, footer, .box-call-to {
 
   ul.nav {
     display: none;
+  }
+  
+  .featurette-divider {
+    margin: 2rem 0;
   }
 
   .showcase-text.text-contac {
@@ -285,6 +293,9 @@ main, footer, .box-call-to {
 
   .showcase p {
     font-size: 1rem;
+  }
+
+  .showcase-text h3 span { content: "/A"; white-space: pre;
   }
   
   .text-about {
@@ -313,6 +324,8 @@ main, footer, .box-call-to {
     margin-right: 0 !important;
   }
   
+  .section-download2 h5 span { content: "/A"; white-space: pre;
+  }
 
 .showcase-text ul li{
   font-size: 1rem;
