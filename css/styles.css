@@ -3,8 +3,6 @@ box-sizing: border-box;
 text-decoration: none !important;
 margin: 0;
 padding: 0;
-
-/* max-width: 100%; */
 font-family: "Poppins", sans-serif;
 }
 
@@ -43,7 +41,6 @@ nav .nav-item, .download-box a{
 
 .download-box a:hover {
   font-weight: 600;  
-
 }
 
 
@@ -106,9 +103,12 @@ text-align: center;
   color:  rgb(255, 255, 255);
 }
 
+
 .showcase p{
   font-size: 1.2rem;
 }
+
+
 
 .text-about {
   padding-top: 4rem;
@@ -124,10 +124,11 @@ text-align: center;
   margin-left: 1rem;
 }
 
+
 .showcase-text ul {
   list-style: none; 
   padding-left: 0; 
-}
+} */
 
 .showcase-text ul li {
   font-size: 1.2rem;
@@ -219,7 +220,7 @@ main, footer, .box-call-to{
 
 
 .showcase-text.text-contac {
-  padding-left: 3rem;
+  padding: 2rem;
 }
 
 .text-contac li{
@@ -243,10 +244,7 @@ footer a {
   nav.navbar{
     position: relative;
   }
-/* 
-  .container {
-    max-width: 80vw
-  } */
+
 
 main, footer, .box-call-to {
     padding-left: 5%;
@@ -264,15 +262,14 @@ main, footer, .box-call-to {
     font-size: 1rem;
   }
 
-  .masthead h1 span { content: "/A"; white-space: pre;
+  .masthead h1 span { 
+    content: "/A"; white-space: pre;
   }
 
   .masthead h2 {
     font-size: 1.5rem;
-
   }
   
-
   ul.nav {
     display: none;
   }
@@ -295,7 +292,8 @@ main, footer, .box-call-to {
     font-size: 1rem;
   }
 
-  .showcase-text h3 span { content: "/A"; white-space: pre;
+  .showcase-text h3 span { 
+    content: "/A"; white-space: pre;
   }
   
   .text-about {
@@ -319,19 +317,19 @@ main, footer, .box-call-to {
     padding-bottom: 3rem;
   }
 
-  .box-call-to.row {
+  .box-call-to.row, footer.footer .row  {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   
-  .section-download2 h5 span { content: "/A"; white-space: pre;
+  .section-download2 h5 span {
+    content: "/A"; white-space: pre;
   }
 
 .showcase-text ul li{
   font-size: 1rem;
   justify-content: center;
   font-weight: 400;
-
 }
 
 
